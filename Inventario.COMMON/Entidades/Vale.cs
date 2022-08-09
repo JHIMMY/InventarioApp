@@ -7,13 +7,4 @@ public class Vale : Base
     public List<Material> MaterialesPrestados { get; set; }
     public Empleado Solicitante { get; set; }
     public Empleado EncargadoAlmacen { get; set; }
-
-    public Vale(DateTime fechaHoraSolicitud, DateTime fechaEntrega, List<Material> materialesPrestados, Empleado solicitante, Empleado encargadoAlmacen)
-    {
-        FechaHoraSolicitud = fechaHoraSolicitud;
-        FechaEntrega = fechaEntrega;
-        MaterialesPrestados = materialesPrestados;
-        Solicitante = solicitante;
-        EncargadoAlmacen = encargadoAlmacen;
-    }
 }
