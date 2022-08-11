@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventario.COMMON", "Invent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventario.DAL", "Inventario.DAL\Inventario.DAL.csproj", "{1EBD4239-9396-4491-AB7C-9F26D185F9B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.Biz", "Inventario.Biz\Inventario.Biz.csproj", "{34C47207-D8C7-4073-8FB8-F4CD5D882513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventario.Biz", "Inventario.Biz\Inventario.Biz.csproj", "{34C47207-D8C7-4073-8FB8-F4CD5D882513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.GUI.Administrador", "Inventario.GUI.Administrador\Inventario.GUI.Administrador.csproj", "{E6E47466-CCD7-4834-B764-5FBB2D06D6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{34C47207-D8C7-4073-8FB8-F4CD5D882513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C47207-D8C7-4073-8FB8-F4CD5D882513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C47207-D8C7-4073-8FB8-F4CD5D882513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E47466-CCD7-4834-B764-5FBB2D06D6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E47466-CCD7-4834-B764-5FBB2D06D6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E47466-CCD7-4834-B764-5FBB2D06D6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E47466-CCD7-4834-B764-5FBB2D06D6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
