@@ -25,11 +25,11 @@
                     <Button x:Name="btnEmpleadosEditar"
                             Click="btnEmpleadosEditar_Click">Editar</Button>
                     <Button x:Name="btnEmpleadosGuardar"
-                            Click="btnEmpleadosGuardar_Click">Guardar</Button>
+                            Click="BtnEmpleadosGuardar_Click">Guardar</Button>
                     <Button x:Name="btnEmpleadosCancelar"
-                            Click="btnEmpleadosCancelar_Click">Cancelar</Button>
+                            Click="BtnEmpleadosCancelar_Click">Cancelar</Button>
                     <Button x:Name="btnEmpleadosEliminar"
-                            Click="btnEmpleadosEliminar_Click">Eliminar</Button>
+                            Click="BtnEmpleadosEliminar_Click">Eliminar</Button>
                 </WrapPanel>
 
                 <WrapPanel Grid.Row="1">
@@ -60,7 +60,7 @@
 
                 </WrapPanel>
 
-                <DataGrid x:Name="dataGridEmpleados" Grid.Row="2">
+                <DataGrid x:Name="dataGridEmpleados" IsReadOnly="True" Grid.Row="2">
                     
                 </DataGrid>
 
