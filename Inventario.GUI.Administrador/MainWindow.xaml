@@ -16,11 +16,20 @@
                 </Grid.RowDefinitions>
 
                 <WrapPanel Grid.Row="0">
-                    <Button x:Name="btnEmpleadosNuevo">Nuevo</Button>
-                    <Button x:Name="btnEmpleadosEditar">Editar</Button>
-                    <Button x:Name="btnEmpleadosGuardar">Guardar</Button>
-                    <Button x:Name="btnEmpleadosCancelar">Cancelar</Button>
-                    <Button x:Name="btnEmpleadosEliminar">Eliminar</Button>
+                    <Button x:Name="btnEmpleadosNuevo"
+                            Click="btnEmpleadosNuevo_Click">
+                        <Button.Content>
+                            Nuevo                            
+                        </Button.Content>
+                    </Button>
+                    <Button x:Name="btnEmpleadosEditar"
+                            Click="btnEmpleadosEditar_Click">Editar</Button>
+                    <Button x:Name="btnEmpleadosGuardar"
+                            Click="btnEmpleadosGuardar_Click">Guardar</Button>
+                    <Button x:Name="btnEmpleadosCancelar"
+                            Click="btnEmpleadosCancelar_Click">Cancelar</Button>
+                    <Button x:Name="btnEmpleadosEliminar"
+                            Click="btnEmpleadosEliminar_Click">Eliminar</Button>
                 </WrapPanel>
 
                 <WrapPanel Grid.Row="1">

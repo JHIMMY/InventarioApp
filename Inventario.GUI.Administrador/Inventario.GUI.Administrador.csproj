@@ -7,4 +7,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Inventario.Biz\Inventario.Biz.csproj" />
+    <ProjectReference Include="..\Inventario.COMMON\Inventario.COMMON.csproj" />
+    <ProjectReference Include="..\Inventario.DAL\Inventario.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
