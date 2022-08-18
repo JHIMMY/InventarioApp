@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inventario.Biz.ManejadorEmpleados" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAEQQAAAACAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ManejadorEmpleados.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inventario.Biz.ManejadorMateriales" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAEQQAAAACAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ManejadorMateriales.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inventario.Biz.ManejadorVales" BaseTypeListCollapsed="true">
+    <Position X="9" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAEQQAAAACAIAACAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ManejadorVales.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inventario.COMMON.Entidades.Base">
+    <Position X="14" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inventario.COMMON.Entidades.Empleado" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inventario.COMMON.Entidades.Material" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inventario.COMMON.Entidades.Vale" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inventario.DAL.RepositorioDeEmpleados" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="6" Width="1.75" />
+    <NestedTypes>
+      <Class Name="Inventario.DAL.RepositorioDeEmpleados.CRUDdelegate" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inventario.DAL.RepositorioVales" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inventario.DAL.RepositotioMateriales" BaseTypeListCollapsed="true">
+    <Position X="14" Y="7.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Inventario.COMMON.Interfaces.IManejadorEmpleados" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inventario.COMMON.Interfaces.IManejadorGenerico&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="2.25" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inventario.COMMON.Interfaces.IManejadorMateriales" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inventario.COMMON.Interfaces.IManejadorVales">
+    <Position X="9.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inventario.COMMON.Interfaces.IRepositorio&lt;T&gt;">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
